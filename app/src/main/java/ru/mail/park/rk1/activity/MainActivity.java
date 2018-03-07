@@ -37,8 +37,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         ArticleFragment articleFragment = new ArticleFragment();
         articleFragment.setArticle(article);
-
-
+        fragmentTransaction.replace(R.id.list, articleFragment);
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }

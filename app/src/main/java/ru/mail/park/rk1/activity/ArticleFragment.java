@@ -1,6 +1,5 @@
 package ru.mail.park.rk1.activity;
 
-
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -42,7 +41,7 @@ public class ArticleFragment extends Fragment {
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.MATCH_PARENT)
         );
-        textViewContent.setText(article.getTitle() + article.getDate() + article.getContent());
+        textViewContent.setText(article.getTitle()+article.getDate()+article.getContent());
         textViewContent.setTextColor(Color.BLACK);
         layout.addView(textViewContent);
 

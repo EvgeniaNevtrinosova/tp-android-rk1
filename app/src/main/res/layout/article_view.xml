@@ -8,4 +8,3 @@
     android:layout_height="match_parent"
     tools:context="ru.mail.park.rk1.activity.MainActivity">
 </android.support.constraint.ConstraintLayout>
-

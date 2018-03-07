@@ -7,14 +7,4 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ru.mail.park.rk1.activity.MainActivity">
-
-    <LinearLayout
-        android:id="@+id/hor_article"
-        android:orientation="horizontal"
-        android:layout_width="2dp"
-        android:layout_height="3dp">
-    </LinearLayout>
-
-
-
 </android.support.constraint.ConstraintLayout>
