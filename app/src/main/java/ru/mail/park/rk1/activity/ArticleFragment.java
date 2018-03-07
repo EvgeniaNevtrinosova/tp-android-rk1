@@ -41,7 +41,7 @@ public class ArticleFragment extends Fragment {
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.MATCH_PARENT)
         );
-        textViewContent.setText(article.getTitle()+article.getDate()+article.getContent());
+        textViewContent.setText(article.getTitle()+article.getDate()+articleq.getContent());
         textViewContent.setTextColor(Color.BLACK);
         layout.addView(textViewContent);
 
